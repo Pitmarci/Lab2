@@ -4,6 +4,11 @@
 int main()
 {
     // declare  variable, set its value to 1
+    int n = 1;
+    while(n <= 20){
+        printf("%d\n",n);
+        n++;
+    }
 
     // create a while loop that runs while the variable is less than or equal to 20
     {
